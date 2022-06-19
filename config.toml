@@ -1,0 +1,4 @@
+baseURL = 'https://bernhardkircher.com/'
+languageCode = 'en-us'
+title = 'Bernhard Kircher'
+theme = 'ananke'
