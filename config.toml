@@ -2,3 +2,48 @@ baseURL = 'https://bernhardkircher.com/'
 languageCode = 'en-us'
 title = 'Bernhard Kircher'
 theme = 'ananke'
+
+layoutdir = "layouts"
+publishdir = "public"
+
+canonifyurls = true
+contentdir = "content"
+pygmentsuseclasses = true
+pluralizelisttitles = false
+
+
+[params]
+Author = "Bernhard Kircher"
+#absURL = "https://bernhardkircher.com/"
+#cachebuster = true
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Bernhard Kircher's Blog"
+logo = "/img/logo.png"
+#faviconfile = "img/logo.png"
+highlightjs = true
+lang = "en"
+github = "https://github.com/bernhardkircher"
+email = "bernhardkircher@gmail.com"
+# linkedin = "example"
+twitter = "@bernhardkircher"
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
+
+  [[menu.main]]
+      name = "About"
+      weight = 1
+      identifier = "about"
+      url = "/about"
+
+  [[menu.main]]
+      name = "Blog"
+      weight = 2
+      identifier = "blog"
+      url = "/posts"
